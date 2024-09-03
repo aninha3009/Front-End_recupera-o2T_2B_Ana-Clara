@@ -1,0 +1,52 @@
+/* Aplicando a fonte externa */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #00c8fa, #00aeff);
+}
+
+/* Estilo para o cabeçalho */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* Estilo para o rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Estilo para as seções */
+section {
+    margin: 2em 0;
+    padding: 1em;
+    text-align: center;
+}
+
+/* Estilo para a imagem */
+.imagem-produto {
+    width: 300px;
+    height: auto;
+    opacity: 0.8; /* Transparência da imagem */
+    transition: opacity 0.3s;
+}
+
+.imagem-produto:hover {
+    opacity: 1; /* Opacidade total ao passar o mouse */
+}
+
+/* Pseudo-elemento exemplo */
+header::after {
+    content: " - A melhor loja online!";
+    font-size: 0.8em;
+    color: #fff;
+}
